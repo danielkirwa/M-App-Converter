@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="#ffa07a"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/screen2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:gravity="center|right"
+        android:textColor="#E1131212"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:padding="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        >
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:layout_weight="4"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/conversion_list"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        >
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/conversion_list"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:id="@+id/btncovert"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Convert"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:weightSum="4"
+        >
+
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:text="back"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

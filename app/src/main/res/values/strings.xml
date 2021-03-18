@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BasicCalc</string>
+
+    <string-array name="conversion_list">
+        <item>Kl (kilometers)</item>
+        <item>M (Meters)</item>
+        <item>Cm (Centimeters)</item>
+    </string-array>
+
+</resources>
+
